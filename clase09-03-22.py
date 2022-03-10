@@ -89,3 +89,17 @@ elif n == 0:
     print('Es cero')
 else:
     print('Es negativo')
+    
+# Ciclos en python 
+
+# For
+validacion = 0
+contador = 0
+while validacion == 0:
+    validacion = int(input("Ingrese 0 para continuar ingrese 1 para finalizar"))
+    
+    contador = contador + 1
+print(contador-1)   
+    
+
+#El resto de cosas estan en el github del profesor xd
