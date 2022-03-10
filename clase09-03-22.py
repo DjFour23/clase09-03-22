@@ -90,16 +90,42 @@ elif n == 0:
 else:
     print('Es negativo')
     
-# Ciclos en python 
+# Ciclos en python
 
 # For
-validacion = 0
-contador = 0
-while validacion == 0:
-    validacion = int(input("Ingrese 0 para continuar ingrese 1 para finalizar"))
-    
-    contador = contador + 1
-print(contador-1)   
-    
 
-#El resto de cosas estan en el github del profesor xd
+# Range 
+
+# Iterador Flojo
+
+for valor in range(4):
+    print(valor)
+
+for valor in range(1, 6):
+    print(valor)
+    
+for valor in range(1, 100, 2):
+    print(valor)
+
+for i in range(1, 11):
+    for j in range(1, 6):
+        print(i,j)
+
+# While
+
+while True:
+    print('Hola Mundo')
+
+# HUA que de las n notas de un estudiante calcule el promedio
+# académico final
+notas = 0
+numero_notas = int(input('Digite el número de notas del estudiante: '))
+for i in range(1, numero_notas + 1):
+    while True:
+        nota = float(input(f'Digite la nota número {i}: '))
+        if nota <5 and nota > 0:
+            break
+    notas = notas + nota
+prom = notas /numero_notas
+prom = round(prom, 2)
+print(f'El promedio académico final de las {numero_notas} notas es: {prom} ')
