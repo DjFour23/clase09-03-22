@@ -129,3 +129,5 @@ for i in range(1, numero_notas + 1):
 prom = notas /numero_notas
 prom = round(prom, 2)
 print(f'El promedio académico final de las {numero_notas} notas es: {prom} ')
+
+#Pos quedo incompleto porque ya vpy a apagar xd
